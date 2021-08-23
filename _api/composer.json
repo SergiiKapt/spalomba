@@ -1,0 +1,24 @@
+{
+    "name": "sergiikapt/spa-eurolombard",
+    "description": "The SPA API",
+    "keywords": ["spa", "api"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "":  ""
+        },
+        "classmap": [
+            "vendor/"
+        ],
+        "files": [
+            "api/core/components/Db.php",
+            "api/core/components/helpers.php"
+        ]
+
+    }
+}
